@@ -1,23 +1,415 @@
-# Subha 2.0
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Welcome to my official personal website.
+    <title>Subha 2.0 | Learning Website</title>
 
-This website showcases my profile, skills, projects, learning journey and social media.
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-## Features
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #222;
+        }
 
-- Personal Profile
-- About Me
-- Skills
-- Projects
-- Learning
-- Social Media
-- Contact
+        header {
+            background: #111827;
+            color: white;
+            padding: 35px 20px;
+            text-align: center;
+        }
 
-## Technology
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
 
-- HTML
-- CSS
-- Responsive Web Design
+        header p {
+            font-size: 17px;
+        }
 
-© 2026 Subha 2.0
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #111827;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: auto;
+            color: #555;
+        }
+
+        .courses {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .course {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .course h3 {
+            margin-bottom: 10px;
+        }
+
+        .course p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #111827;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>SUBHA 2.0</h1>
+    <p>Learning Website – Computer & Digital Skills</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+</nav>
+
+<section class="hero">
+    <h2>Learn. Practice. Grow.</h2>
+    <p>
+        Computer, Microsoft Office, Web Design, Digital Marketing,
+        AI Tools এবং আরও অনেক কিছু সহজভাবে শেখার জন্য একটি Learning Platform।
+    </p>
+</section>
+
+<section id="courses">
+
+    <div class="courses">
+
+        <div class="course">
+            <h3>💻 Computer Basic</h3>
+            <p>Computer-এর প্রাথমিক বিষয়গুলো শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>📝 MS Word</h3>
+            <p>Professional document তৈরি করা শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>📊 MS Excel</h3>
+            <p>Basic থেকে Advanced Excel শেখা শুরু করুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>📽️ PowerPoint</h3>
+            <p>Professional presentation তৈরি করা শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>🎨 Canva</h3>
+            <p>Poster, Banner এবং Thumbnail design শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>🌐 Web Design</h3>
+            <p>HTML ও CSS দিয়ে Website তৈরি করা শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>📢 Digital Marketing</h3>
+            <p>Digital Marketing-এর basic skills শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>🤖 AI Tools</h3>
+            <p>AI tools-এর practical ব্যবহার শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>⚡ Electrical</h3>
+            <p>Electrical-এর বিভিন্ন গুরুত্বপূর্ণ বিষয় শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="about" class="hero">
+    <h2>About Subha 2.0</h2>
+    <p>
+        Subha 2.0 একটি educational learning platform,
+        যেখানে Computer এবং Digital Skills সহজভাবে শেখানো হবে।
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Subha 2.0 | Learning Website</p>
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Subha 2.0 | Learning Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #111827;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: auto;
+            color: #555;
+        }
+
+        .courses {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .course {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .course h3 {
+            margin-bottom: 10px;
+        }
+
+        .course p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #111827;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>SUBHA 2.0</h1>
+    <p>Learning Website – Computer & Digital Skills</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+</nav>
+
+<section class="hero">
+    <h2>Learn. Practice. Grow.</h2>
+    <p>
+        Computer, Microsoft Office, Web Design, Digital Marketing,
+        AI Tools এবং আরও অনেক কিছু সহজভাবে শেখার জন্য একটি Learning Platform।
+    </p>
+</section>
+
+<section id="courses">
+
+    <div class="courses">
+
+        <div class="course">
+            <h3>💻 Computer Basic</h3>
+            <p>Computer-এর প্রাথমিক বিষয়গুলো শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>📝 MS Word</h3>
+            <p>Professional document তৈরি করা শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>📊 MS Excel</h3>
+            <p>Basic থেকে Advanced Excel শেখা শুরু করুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>📽️ PowerPoint</h3>
+            <p>Professional presentation তৈরি করা শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>🎨 Canva</h3>
+            <p>Poster, Banner এবং Thumbnail design শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>🌐 Web Design</h3>
+            <p>HTML ও CSS দিয়ে Website তৈরি করা শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>📢 Digital Marketing</h3>
+            <p>Digital Marketing-এর basic skills শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>🤖 AI Tools</h3>
+            <p>AI tools-এর practical ব্যবহার শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+        <div class="course">
+            <h3>⚡ Electrical</h3>
+            <p>Electrical-এর বিভিন্ন গুরুত্বপূর্ণ বিষয় শিখুন।</p>
+            <a class="btn" href="#">Start Learning</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="about" class="hero">
+    <h2>About Subha 2.0</h2>
+    <p>
+        Subha 2.0 একটি educational learning platform,
+        যেখানে Computer এবং Digital Skills সহজভাবে শেখানো হবে।
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Subha 2.0 | Learning Website</p>
+</footer>
+
+</body>
+</html>
